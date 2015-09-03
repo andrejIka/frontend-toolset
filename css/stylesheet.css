@@ -1,0 +1,96 @@
+body,html {
+    height: 100%
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    font-family: Arial;
+    background: #fff
+}
+
+html.ie8 body {
+    min-width: 990px
+}
+
+.outlined,.outlined div {
+    outline: 1px solid #f00
+}
+
+.container {
+    max-width: 1190px;
+}
+
+.container.container-fluid {
+    max-width: 100%
+}
+
+html,body {
+    height: 100%
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px;
+    background: #fff;
+}
+
+#wrap.with-bgd {
+    background: #fdfdfd;
+}
+
+#wrap.with-bgd #content {
+    padding-top: 20px
+}
+
+#push,.navbar-footer {
+    height: 50px;
+    float: left
+}
+
+.navbar-footer {
+    color: #fff;
+    width: 100%;
+    margin-top: 50px;
+    background: #2f7dcd
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        background: #2f7dcd
+    }
+
+    #wrap {
+        min-height: 80%;
+        height: auto !important;
+        margin: 0;
+        padding: 0;
+        background: #fff
+    }
+
+    #push {
+        display: none
+    }
+
+    #footer {
+        height: auto;
+        margin: 0;
+        float: none
+    }
+}
+
+@media only screen and (max-width:480px) {
+    p {
+        word-wrap: break-word
+    }
+}
+
+a:hover,a:focus,a,i,.btn,.btn:hover,.btn:focus {
+    -webkit-transition: all .8s ease;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease
+}

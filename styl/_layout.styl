@@ -1,0 +1,94 @@
+
+// Define general styling
+/* Main elements */
+body,html{height: 100%;} 
+body { 
+  width: 100%; 
+  max-width: 100%; 
+  font-family: Arial;
+  background #FFF 
+}
+html.ie8 body{ min-width: 990px; }
+.outlined, .outlined div{ 
+  outline: 1px solid red; 
+} 
+// Container
+.container{
+  max-width: 1190px;
+  &.container-fluid{
+    max-width: 100%;
+  }
+}
+
+html, body { height: 100%; }
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -100px;
+  background: #fff; 
+  &.with-bgd{
+    background:  #fdfdfd;
+    #content{
+      padding-top: 20px; 
+    }
+  } 
+  
+}
+/* Set the fixed height of the footer here */
+#push, .navbar-footer {height: 50px; float: left; }
+// Footer created 
+.navbar-footer{
+  color: white;
+  width: 100%;
+  margin-top: 50px; 
+  background: #2f7dcd;
+}  
+
++below(768px) {
+  // Handle sticky footer
+  body{
+    background: #2f7dcd; 
+  }
+  #wrap {
+    min-height: 80%;
+    height: auto !important; 
+    margin: 0;
+    padding: 0;
+    background: #fff;
+  } 
+  #push{
+    display: none;
+  }
+  #footer{
+    height: auto;
+    margin: 0;
+    float: none;
+  }
+  
+}
+
++below(480px){
+  
+  p{
+    word-wrap: break-word;
+  }  
+ 
+}
+
+a:hover,  
+a:focus,
+a,
+i, 
+.btn, 
+.btn:hover, 
+.btn:focus 
+{ 
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+}
+

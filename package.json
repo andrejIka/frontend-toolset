@@ -1,0 +1,38 @@
+{
+  "name": "angularjs_aaa_web_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dronni3de.git"
+  },
+  "keywords": [],
+  "author": "dronni3de",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "homepage": "https://webapp.com`",
+  "dependencies": {
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-stylus": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-cssbeautifier": "^0.1.2",
+    "grunt-stylus-map": "^0.21.2",
+    "kouto-swiss": "^0.11.13",
+    "rupture": "^0.6.1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
+}
